@@ -1,6 +1,6 @@
 # Marathi OCR Pro - Handwritten Text Recognition
 
-A powerful OCR application for converting handwritten Marathi documents into digital text using Google's Gemini AI.
+A powerful OCR application for converting handwritten Marathi society records documents into digital text using Google's Gemini AI.
 
 ## Features
 
