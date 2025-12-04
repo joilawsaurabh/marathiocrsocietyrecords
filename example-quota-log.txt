@@ -1,0 +1,53 @@
+=== GEMINI API QUOTA USAGE LOG ===
+=== QUOTA USAGE SUMMARY ===
+Generated: 2025-11-24T15:42:30.000Z
+Total Requests: 15
+Successful: 12
+Failed: 1
+Rate Limited: 2
+Total Tokens: 255,000 (Prompt: 225,000, Output: 30,000)
+Total Cost: $1.1025
+Average Processing Time: 4250ms
+First Request: 2025-11-24T08:15:00.000Z
+Last Request: 2025-11-24T15:30:00.000Z
+
+=== DETAILED LOGS ===
+
+2025-11-24T08:15:23.456Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=3 | prompt_tokens=15000 | output_tokens=2000 | total_tokens=17000 | cost=$0.073500 | time=4500ms
+
+2025-11-24T08:20:45.789Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=2 | prompt_tokens=10000 | output_tokens=1500 | total_tokens=11500 | cost=$0.050750 | time=3800ms
+
+2025-11-24T08:25:12.345Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=4 | prompt_tokens=20000 | output_tokens=2500 | total_tokens=22500 | cost=$0.096250 | time=5200ms
+
+2025-11-24T08:30:56.123Z | session_1732445723456_abc123 | RATE_LIMITED | gemini-3-pro-preview | files=5 | prompt_tokens=0 | output_tokens=0 | total_tokens=0 | cost=$0.000000 | time=1200ms | error="The model is overloaded. Please try again later."
+
+2025-11-24T08:32:30.678Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=5 | prompt_tokens=25000 | output_tokens=3000 | total_tokens=28000 | cost=$0.119000 | time=5800ms
+
+2025-11-24T09:15:45.234Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=1 | prompt_tokens=5000 | output_tokens=800 | total_tokens=5800 | cost=$0.025900 | time=2100ms
+
+2025-11-24T09:20:12.567Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=3 | prompt_tokens=15000 | output_tokens=2000 | total_tokens=17000 | cost=$0.073500 | time=4300ms
+
+2025-11-24T10:05:34.890Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=2 | prompt_tokens=10000 | output_tokens=1500 | total_tokens=11500 | cost=$0.050750 | time=3900ms
+
+2025-11-24T10:10:23.456Z | session_1732445723456_abc123 | ERROR | gemini-3-pro-preview | files=3 | prompt_tokens=0 | output_tokens=0 | total_tokens=0 | cost=$0.000000 | time=800ms | error="API Key is missing. Please check your environment configuration."
+
+2025-11-24T10:15:45.123Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=3 | prompt_tokens=15000 | output_tokens=2000 | total_tokens=17000 | cost=$0.073500 | time=4400ms
+
+2025-11-24T11:30:12.789Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=4 | prompt_tokens=20000 | output_tokens=2500 | total_tokens=22500 | cost=$0.096250 | time=5100ms
+
+2025-11-24T12:45:34.567Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=2 | prompt_tokens=10000 | output_tokens=1500 | total_tokens=11500 | cost=$0.050750 | time=3700ms
+
+2025-11-24T14:20:56.234Z | session_1732445723456_abc123 | RATE_LIMITED | gemini-3-pro-preview | files=6 | prompt_tokens=0 | output_tokens=0 | total_tokens=0 | cost=$0.000000 | time=950ms | error="The model is overloaded. Please try again later."
+
+2025-11-24T14:23:15.890Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=6 | prompt_tokens=30000 | output_tokens=3500 | total_tokens=33500 | cost=$0.141750 | time=6200ms
+
+2025-11-24T15:30:45.678Z | session_1732445723456_abc123 | SUCCESS | gemini-3-pro-preview | files=3 | prompt_tokens=15000 | output_tokens=2000 | total_tokens=17000 | cost=$0.073500 | time=4350ms
+
+=== END OF LOG ===
+
+Notes:
+- All timestamps are in ISO 8601 format (UTC)
+- Session ID remains constant within a browser session
+- Rate limited requests show 0 tokens and $0 cost
+- Processing time includes network latency
+- Costs calculated based on Gemini pricing: $3.50/1M input tokens, $10.50/1M output tokens

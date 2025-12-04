@@ -1,0 +1,5 @@
+{
+  "name": "Marathi OCR Pro v2",
+  "description": "Advanced handwritten Marathi (Devanagari) OCR and data extraction tool using Gemini 3.0 Pro.",
+  "requestFramePermissions": []
+}
