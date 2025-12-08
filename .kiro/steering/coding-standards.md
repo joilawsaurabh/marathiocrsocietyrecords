@@ -348,7 +348,7 @@ if (!apiKey) {
 }
 
 // ❌ Bad: Hardcoded
-const apiKey = "AIzaSyAXAY0UdATeD7e2phQ1DesciYoLVivzJzw";
+const apiKey = "AIzaSy_EXAMPLE_KEY_DO_NOT_HARDCODE";
 ```
 
 ### User Input
